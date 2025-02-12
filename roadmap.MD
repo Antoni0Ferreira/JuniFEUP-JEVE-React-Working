@@ -1,12 +1,16 @@
 # React
 
-- home.jsx --> criar page
-- todos.jsx --> criar page
+- home.jsx --> create page
+- todos.jsx --> create page
 - app.jsx
-  - instalar react-router-dom
-  - criar rotas de navegação
-- layout.jsx --> estrutura e Navbar
-- app.js --> adicionar layout às rotas
+  - install react-router-dom
+  - import react-router-dom
+  - create navigation routes
+- navbar.jsx
+  - create navbar component
+  - add links to home and todos
+- layout.jsx --> add structure and navbar
+- app.js --> encapsulate routes in the Layout
 - todos.jsx
   - criar state
   - useEffect() para carregar todos
